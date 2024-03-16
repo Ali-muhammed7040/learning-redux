@@ -1,12 +1,14 @@
-import React from 'react'
-import Product from './Product'
+import React from "react";
+import Product from "./Product";
 
 const Dashboard = () => {
-    return (
-        <div>
-            <Product />
-        </div>
-    )
-}
+  return (
+    <div>
+      <h3 className="text-center"> Product Dashboard</h3>
 
-export default Dashboard
+      <Product />
+    </div>
+  );
+};
+
+export default Dashboard;
